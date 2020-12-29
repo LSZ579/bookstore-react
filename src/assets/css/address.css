@@ -1,0 +1,25 @@
+.address-list-name{
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+.address-list-detail{
+    font-size: 14px;
+    color: grey;
+}
+.address-list{
+    margin: 5px;
+}
+.address-list-item{
+    margin: 12px 0;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+.right-btn{
+    position: absolute;
+    right: 0;
+}
+.address-edit{
+    margin-right: 10px;
+}

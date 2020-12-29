@@ -1,0 +1,64 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    background-color: rgb(218, 218, 248);
+}
+.login-w{
+    width: 500px;
+    position: absolute;
+    left:50%;
+    margin-left: -250px;
+    padding: 40px 30px;
+    border-radius: 10px;
+    background-color: white;
+    top: 150px;
+}
+.tab-list{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    font-size: 22px;
+    height: 30px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding-bottom: 15px;
+}
+.tab-line{
+    position: absolute;
+    background-color: rgb(47, 137, 255);
+    height: 5px;
+    width: 80px;
+    bottom: 0px;
+    left: 162px;
+    transition: all ease 0.2s;
+}
+.active{
+    position: absolute;
+    background-color: rgb(47, 137, 255);
+    height: 5px;
+    width: 80px;
+    bottom: 0px;
+    left: 52px;
+    transition: all ease 0.2s;
+}
+.tab1{
+    margin-right: 35px;
+    cursor: pointer;
+}
+.tab2{
+    margin-left:  35px;
+    cursor: pointer;
+}
+.login-btn{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    margin-left: -40px;
+    justify-content: center;
+}
